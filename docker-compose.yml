@@ -1,0 +1,138 @@
+version: "3"
+services:
+  # OCR pipeline
+  ocr_master:
+    image: nistcurator/ocr_master
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == frt
+    command: ${STACK}_postgres_ocr ocruser ocrpass ${STACK}_redis "http://user:pass@linux-p861381.campus.nist.gov:18099/" document ocr
+    volumes:
+      - /mnt/data/ocr:/tmp/ocrpipe
+      - ocr_static:/srv/ocr-pipeline-master-rest/static
+      - ocr_socket:/tmp/uwsgi
+  ocr_worker:
+    image: nistcurator/ocr_worker
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.type == wkr
+    command: ${STACK}_redis
+    volumes:
+      - /mnt/ocrdata:/tmp/ocrpipe
+      - ocr_models:/opt/ocr_pipeline/models
+  postgres_ocr:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=ocruser
+      - POSTGRES_PASSWORD=ocrpass
+      - POSTGRES_DB=ocr
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+    volumes:
+      - pg_ocr_data:/var/lib/postgresql/data/
+  # MDCS
+  mdcs:
+    image: nistcurator/mdcs
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == frt
+    volumes:
+      - mdcs_data:/srv/curator/
+    command: ${STACK}_mongo_curator ${STACK}_postgres_curator ${STACK}_redis
+  postgres_curator:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=curator
+      - POSTGRES_PASSWORD=curator
+      - POSTGRES_DB=mdcs
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+    volumes:
+      - pg_curator_data:/var/lib/postgresql/data
+  mongo_curator:
+    image: mongo:3.4
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+    volumes:
+      - mongo_curator_data:/data/db/
+  # WIPP
+  wipp:
+    image: wipp/wipp
+    ports:
+      - 50101:8080  # WIPP
+      - 50102:5005  # Pegasus
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == frt
+    command: ${STACK}_wipp_master ${STACK}_mongo_wipp
+    volumes:
+      - /mnt/data/wipp:/data/WIPP
+      - pegasus_home:/home/wipp/.pegasus
+      - pegasus_workflows:/data/pegasus-workflows
+  wipp_master:
+    image: dscnaf/htcondor-debian:release-0.2.0
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+    command: -m
+  wipp_executor:
+    image: wipp/wipp_executor
+    deploy:
+      replicas: 3
+      placement:
+        constraints:
+          - node.labels.type == wkr
+    command: -e ${STACK}_wipp_master 4G
+    volumes:
+      - /mnt/wippdata:/data/WIPP
+  mongo_wipp:
+    image: mongo:3.4
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+    volumes:
+      - mongo_wipp_data:/data/db/
+  # Commons
+  nginx:
+    image: cloud_nginx
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == frt
+    ports:
+      - 80:80
+    volumes:
+      - mdcs_data:/srv/curator/
+      - ocr_static:/srv/ocr-pipeline-master-rest/static
+      - ocr_socket:/tmp/uwsgi
+  redis:
+    image: redis:3.2
+    deploy:
+      placement:
+        constraints:
+          - node.labels.type == mdw
+volumes:
+  mdcs_data:
+  ocr_static:
+  ocr_socket:
+  ocr_models:
+  pg_ocr_data:
+  pg_curator_data:
+  mongo_curator_data:
+  mongo_wipp_data:
+  pegasus_home:
+  pegasus_workflows:
+

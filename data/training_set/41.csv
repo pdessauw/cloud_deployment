@@ -1,0 +1,156 @@
+"Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255 www.elsevier.com/locate/calphad",1
+
+"Assessment of the diffusional mobilities in the face-centred cubic Au–Ni alloys",1
+"J. Wang, L.B. Liu, H.S. Liu, Z.P. Jin ∗",1
+"School of Materials Science and Engineering, Central South University, Chang-Sha, Hunan, 410083, PR China Received 25 August 2006; received in revised form 9 November 2006; accepted 19 November 2006 Available online 26 December 2006",1
+
+"Abstract Based on the available thermodynamic information and diffusion coefﬁcient data of the Au–Ni system, the atomic mobility of Au and Ni in face-centred cubic (fcc) Au–Ni alloys has been assessed as a function of temperature and composition in terms of the CALPHAD method. Optimized mobility parameters are presented. Comparisons between the calculated and measured diffusion coefﬁcients show that most of the experimental information can be satisfactorily reproduced in the present work. The obtained mobility parameters can also predict a reasonable concentration proﬁle of the diffusion zone in a binary Au–Ni diffusion couple. c 2006 Elsevier Ltd. All rights reserved.",1
+"Keywords: Assessment; Diffusion; Atomic mobility; CALPHAD; Au–Ni alloys",1
+
+"1. Introduction In order to meet the requirements of high electrical conductivity and good adhesion of the soldering joint, Au/Ni thin ﬁlms are often used as an integral part of multilayer metallization on semiconductor chips and packages in the electronics industry [1–3]. Microstructure evolution resulting from interdiffusion of the elements across the interface during packaging and/or subsequent service of the electronic devices could lead to many problems, such as loss of conductivity, bonding strength and adhesion. It is believed obviously that the interdiffusion between the Au/Ni thin ﬁlms have an important inﬂuence on the mechanical and electric properties of the electronic devices. The software to simulate numerically diffusion-controlled phase transformations in multicomponent systems, named as DICTRA (DIffusion Controlled TRAnsformations), has been developed recently [4–6]. Based on the so-called local equilibrium hypothesis, DICTRA has been successfully used to deal with complex materials processes [7–10] such as cementite dissolution during austenitization, caburization and coarsening of particles in a matrix. Ghosh [3] has employed",1
+"∗ Corresponding author.",1
+
+"E-mail address: jin@mail.csu.edu.cn (Z.P. Jin). 0364-5916/$ - see front matter c 2006 Elsevier Ltd. All rights reserved. doi:10.1016/j.calphad.2006.11.006",1
+
+"the DICTRA software to simulate the dissolution kinetics of the Ag layer in the thin-ﬁlm Ti/Ni/Ag metallization on the die side in the liquid solder with reasonable accuracy. In addition, when soldering and aging subsequently, Kirkendall voids formed through interdiffusion at the interface between solder and metallization can also be simulated and predicted using the DICTRA software. It is of signiﬁcance to control the microstructure evolution of the interface between solder and thin-ﬁlm metallization and optimize the manufacturing process in microelectronic device packages. However, simulation of microstructure evolution requires generally both thermodynamic and atomic mobility data. Moreover, the accuracy of DICTRA simulation is highly dependent on the reliability of the thermodynamic and kinetic data and the different assumptions used. So far, reliable and self-consistent thermodynamic data for many alloy systems have been developed using the CALPHAD method [11,12]. To the best of our knowledge, experimental kinetic data, e.g. diffusivity, which are often not consistent with each other from different sources, are assessed in a few alloy systems and diffusion data of many alloy systems are not created now. The better understanding of the interdiffusion between the Au/Ni thin ﬁlms is helpful to design and optimize suitable soldering and aging process. The purpose of the present work is to obtain the atomic mobilities of Au and Ni in",1
+
+"250",0
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255",1
+
+"face-centred cubic Au–Ni alloys as a function of temperature and composition by means of a CALPHAD type of procedure. 2. Experimental information Several investigations [13–19] have been performed to measure the self-diffusion coefﬁcients of Au and the tracer diffusion coefﬁcients of Ni in the Au–Ni alloys. Using Au198 as tracing element and applying the sectioning method, Okkerse et al. [13], Makin et al. [14] and Mead et al. [15] have measured the self-diffusion coefﬁcients of Au in pure Au over different temperature ranges. Duhl et al. [16] have measured the self-diffusion coefﬁcients of Au in pure Au and the tracer diffusion coefﬁcients of Ni in pure Au using the sectioning method and the residual-activity technique, respectively. By means of autoradiographic technique, Gatos et al. [17] have measured the self-diffusion coefﬁcients of Au in pure Au over the temperature range 953–1333 K. Trace diffusion of Au198 in various Au–Ni alloys has been introduced by Kurtz et al. [18] through the autoradiographic method to measure the Au tracer diffusion coefﬁcient as a function of composition and temperature in the region of complete solid solubility. Whereas, Reynolds et al. [19] have determined the tracer diffusion coefﬁcients of Ni in various Au–Ni alloys using sectioning method. The experimental data of the tracer diffusion coefﬁcients of Au and Ni in the Au–Ni alloys mentioned above [13–19] are in good agreement with each other and are used in the present optimization. Interdiffusion coefﬁcients and intrinsic diffusion coefﬁcients in the Au–Ni alloys have been investigated by several authors [19,20,22]. Reynolds et al. [19] have measured the interdiffusion coefﬁcients in the Au–Ni alloys over the temperature range 1123–1198 K with the diffusion couple technique. Recently, Sugiyama et al. [20] have measured the interdiffusion coefﬁcients in the Au–Ni alloys over the temperature range 1023–1173 K using the multiple-markers method with Sauer–Freise analysis [21], which takes into account the total molar volume change when calculating the interdiffusion coefﬁcients. Using Sauer–Freise analysis to evaluate the concentration proﬁles of the annealed Au/Ni diffusion couples, van Dal et al. [22] have determined the interdiffusion coefﬁcients and intrinsic diffusion coefﬁcients in the Au–Ni alloys over the temperature range 1023–1173 K as well. The experimental data of the interdiffusion coefﬁcients and intrinsic diffusion coefﬁcients in the Au–Ni alloys obtained by the authors [19,20,22] are also taken into account in the present optimization. 3. Modelling of atomic mobility The temporal proﬁle of the diffusing specie k is given by the Fick’s law in the mass conservation form as following: ∂Ck = −div(Jk ) ∂t (1)",1
+
+"Fig. 1. Calculated phase diagram of the Au–Ni binary system by Wang et al. [26].",1
+
+"Fig. 2. Calculated temperature dependence of self-diffusion coefﬁcient of Ni by J¨ nsson [27]. o",1
+
+"the species, Jk , in a multicomponent system is given by the Fick–Onsager law as:",1
+"n−1",0
+
+"Jk = −",0
+"j=1",0
+
+"n Dk j C j",0
+
+"(2)",0
+
+"n Dk j is the chemical diffusion coefﬁcient. The summation is performed over (n − 1) independent concentration as the dependent n component may be taken as the solvent. For a n substitutional solution phase, it is concluded by [5,23] that Dk j can be given by the following expression n Dk j = i",1
+
+"where Ck is the concentration in moles per volume, and div denotes the divergence operator. The diffusional ﬂux of",1
+
+"(δik − xk )xi Mi",0
+
+"∂µi ∂µi − ∂x j ∂ xn",0
+
+"(3)",0
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255 Table 1 Mobility parameters of the Au–Ni system for the face-centred cubic Au–Ni alloys obtained in the present work Mobility Parameters G Au = −176 600 − 95.7 × T Au Mobility of Au G Ni = −306 500 − 25.8 × T Au",1
+"0 G Au,Ni = +232 300 − 136.2 × T Au 1 G Au,Ni = +15 900 Au",0
+
+"251",0
+
+"Reference",1
+
+"This work",1
+
+"G Ni = −287 000 − 69.8 × T Ni Mobility of Ni G Au = −188 800 − 91.3 × T Ni 0 G Au,Ni = +136 200 Ni 1 G Au,Ni = −42 800 Ni",0
+
+"[27]",0
+
+"This work",1
+
+"Fig. 4. Comparison between the calculated composition dependence of Au tracer diffusion coefﬁcient and experimental data from [18] in the Au–Ni alloys at different temperatures: 1073 K, 1123 K, 1173 K and 1223 K.",1
+
+"Fig. 3. Calculated temperature dependence of self-diffusion coefﬁcient of Au compared with the experimental data from the literatures [13–18].",1
+
+"where δik is the Kroneker delta (δik = 1 if i = k, otherwise δik = 0), xi the mole fraction, µi the chemical potential of element i and Mi the composition dependent atomic mobility. From the absolute-rate theory arguments, the mobility parameters Mi for the element i, can be divided into a frequency factor Mi0 and an activation enthalpy Q i . According to the suggestion by J¨ nsson [23,24], the Mi can be expressed as o Mi = exp RT ln RT Mi0 exp −Q i RT 1 RT",1
+"mg",0
+
+"Fig. 5. Comparison between calculated temperature dependence of Au tracer diffusion coefﬁcient and experimental data from [18] in various Au–Ni alloys.",1
+
+"For the Au–Ni binary system, Ω",1
+"mg",0
+
+"∗ G i is given as follows 0",1
+
+"(4)",0
+
+"Ni ∗ Au G i = xAu G i + xNi G i + xAu xNi",0
+
+"G i Au,Ni (6)",0
+
+"where R is the gas constant, T the temperature, and Ω is a factor taking into account a ferromagnetic contribution to the diffusion. Both Mi0 and Q i are temperature, composition and pressure dependent factors. Because the ferromagnetic effect for fcc phase can be ignored [25], combining with RT ln Mi0 ∗ and Q i into one parameter G i = RT ln Mi0 − Q i , Eq. (4) can be simpliﬁed to Mi = exp",1
+"∗ Gi RT",0
+
+"+ xAu xNi (xAu − xNi )",0
+
+"1",0
+
+"Au,Ni Gi",0
+
+"1 . RT",0
+
+"Au,Ni where ( j) G i is the interaction term for diffusion between Au and Ni. We can see that Mi can be obtained by the ∗ optimization of G i with experimental data of diffusion coefﬁcients. Assuming the mono-vacancy atomic exchange as the main diffusion mechanism, the tracer diffusivity Di∗ can be related to the atomic mobility Mi by the Einstein’s relation",1
+
+"(5)",0
+
+"Di∗ = RT Mi .",0
+
+"(7)",0
+
+"252",0
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255",1
+
+"Fig. 6. Comparison between calculated temperature dependence of Ni tracer diffusion coefﬁcient and experimental data from [19] in various Au–Ni alloys. (a) X(Ni) = 0.00 ∼ 0.36, (b) X(Ni) = 0.50 ∼ 1.00.",1
+
+"Fig. 7. Comparison between calculated intrinsic diffusion coefﬁcients and experimental data from [22] at 1173 K. (a) Intrinsic diffusion coefﬁcients of Au, (b) Intrinsic diffusion coefﬁcients of Ni.",1
+
+"Generally, the tracer diffusion coefﬁcient Di∗ can be formulated by Arrhenius equation Di∗ = D0 exp −qi RT (8)",1
+
+"4. Results and discussion Thermodynamic properties of the Au–Ni binary system have recently been assessed by Wang et al. [26]. The obtained parameters in their assessment can reproduce most newly reported experimental data on thermodynamic properties and phase diagram of this binary system. Fig. 1 shows the calculated phase diagram of the Au–Ni binary system by Wang et al. [26]. Thermodynamic parameters for the face-centered cubic solid solution phase used in the present work were taken directly from Wang et al. [26]. According to the available experimental data of the selfdiffusivity in pure Ni, the mobility parameters of Ni have",1
+
+"where D0 is atomic jump frequency and qi is the activation energy for self-diffusion. Combining with Eqs. (5), (7) and (8), it can be drawn",1
+"∗ G i = RT ln D0 − qi",0
+
+"(9)",0
+
+"∗ where G i eventually represents the mobility parameter of tracer diffusivity, which can be directly derived from D0 and qi .",1
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255",1
+
+"253",0
+
+"Fig. 8. Comparison between calculated interdiffusion coefﬁcients and experimental data from [19] at different temperatures: (a) 1123 K, (b) 1148 K, (c) 1173 K, (d) 1198 K.",1
+
+"been assessed by J¨ nsson [27], which can reproduce most o of experimental data and are reasonable and self-consistent with extrapolation of high-order related systems. The available mobility parameters of Ni have also been adopted in the present work. The temperature dependence of self-diffusivity of Ni by o J¨ nsson [27] is presented in Fig. 2. All the optimizations are carried out in the PARROT module of the DICTRA software package [4,11]. The experimental data of tracer diffusion coefﬁcient, intrinsic diffusion coefﬁcients and interdiffusion coefﬁcients are adopted to assess the mobility parameters of Au and Ni for the face-centred cubic phase in Au–Ni binary system. The mobility parameters obtained ﬁnally in the present work are listed in Table 1. The calculated self-diffusion coefﬁcients of Au as a function of inverse temperature are compared with the experimental data [13–18] as illustrated in Fig. 3. It is in accordance with the experimental data by Okkerse et al. [13], Makin et al. [14], Mead et al. [15], and Duhl et al. [16], whereas",1
+
+"a difference exists between the experimental data of Gatos et al. [17] and Kurtz et al. [18] and the calculated values in the present work. Nevertheless, the calculated values are still acceptable within the experimental error. The calculated composition dependence and temperature dependence of Au tracer diffusion coefﬁcients in the Au–Ni alloys are compared with the experimental data [18] in Figs. 4 and 5, respectively. As can be seen (Figs. 4 and 5), the calculated values are in agreement with the experimental data determined in the Ni-rich side, but show a small discrepancy in the Au-rich side. In addition, Fig. 6 also presents the comparison between the calculated temperature dependence of Ni tracer diffusion coefﬁcients in various Au–Ni alloys and the experimental data measured by Reynolds et al. [19]. The calculated results agree with experimental data in the Au–Ni alloys with 36, 50, 65 and 100 at.% Ni, while deviate slightly from experimental data in other Au–Ni alloys. If the experimental error is considered, the calculated results are still reasonable.",1
+
+"254",0
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255",1
+
+"Fig. 7 shows the calculated intrinsic diffusion coefﬁcients of Au and Ni compared with the experimental data determined by van Dal et al. [22] at 1173 K. As can be seen in Fig. 7(a), the calculated intrinsic diffusion coefﬁcients of Au fall somewhat lower than the experimental data in the Aurich alloys and the difference between the calculated and measured values increases with increasing Au-content. This deviation is due to the fact that the mobility parameters of Au are ﬁxed because the optimized mobility parameters of Au can reproduce very well the available experimental data on Au tracer diffusion coefﬁcients as indicated in Figs. 3–5. In order to achieve self-consistent mobility parameters, this deviation is ignored in the present optimization. In Fig. 7(b), the calculated intrinsic diffusion coefﬁcients of Ni also deviate somewhat slightly from the experimental data. This error is due primarily to uncertainties connected with the graphical integration and concentration gradient determination in the Sauer–Freise method [21]. The composition dependence of the interdiffusion coefﬁcients in the Au–Ni alloys at various temperatures assessed in the present work together with the experimental data reported by Reynolds et al. [19], Sugiyama et al. [20] and van Dal et al. [22] are presented in Figs. 8–10, respectively. Fig. 8(a)–(d) shows the comparison between the calculated interdiffusion coefﬁcients and the experimental data at the different temperatures determined earlier by Reynolds et al. [19]. The calculated interdiffusion coefﬁcients are generally in accordance with the experimental data at the Au-rich side, whereas deviate from the experimental data for the Ni-rich solid solutions. Moreover, this problem is also found in the Figs. 9 and 10, which present the comparison between the calculated interdiffusion coefﬁcients and the experimental data measured recently by Sugiyama et al. [20] and van Dal et al. [22] at the various temperatures. The reason for that is discussed in detail below. As can be seen from the composition proﬁle measured experimentally by van Dal et al. [22], a high concentration gradient exists at the Ni-rich side of the diffusion interaction zone in the Au/Ni diffusion couple, and therefore, the distance of this part of the diffusion zone is small. This restrains the accurate determination of the interdiffusion coefﬁcients in the Ni-rich side in the Au/Ni diffusion couple. It is even worse in the case of the samples annealed at temperatures below the miscibility gap (Fig. 1). A sharp interface between two face-centered cubic solid solution layers is present within the diffusion zone and interdiffusion coefﬁcients can only be measured over a limited concentration range. This is the reason why Sugiyama et al. [20] and van Dal et al. [22] only have determined experimentally interdiffusion coefﬁcients in the Au–Ni alloys with 0 ∼ 50 at.% Ni at 1023 K and 1073 K. Thus, experimental error of the interdiffusion coefﬁcients in the Ni-rich solid solution may be much larger than that of the interdiffusion coefﬁcients in the Au-rich solid solution. However, the deviation is mainly due to the miscibility gap at the Ni-rich side in the Au–Ni system. From the experimental data determined by Reynolds et al. [19], Sugiyama et al. [20] and van Dal et al. [22], the composition dependencies of interdiffusion coefﬁcient for temperatures above the critical",1
+
+"Fig. 9. Comparison between calculated interdiffusion coefﬁcients and experimental data from [20] at different temperatures.",1
+
+"Fig. 10. Comparison between calculated interdiffusion coefﬁcients and experimental data from [22] at different temperatures.",1
+
+"point of the binodal curve on the Au–Ni phase diagram (T > 1089.5 K) (Fig. 1), show a reversal near the Nirich side with a minimum at about 78 at.% Ni. It seems to result from the existing miscibility in the Au–Ni solid solution. Approaching gradually the miscibility gap maximum, thermodynamic driving force for diffusion goes to zero. This leads to lower values of interdiffusion coefﬁcients in the vicinity of the corresponding composition range in the Au–Ni solid solution. However, it is also observed that the minimum in the interdiffusion rate in this system does not exactly coincide with the maximum on the miscibility curve (about 73 at.% of Ni) calculated by Wang et al. [26]. It is believed that the amount of thermal vacancies increases near the melting point, which results in an enhancement of the atomic mobility in the alloy close to the melting point. And then interdiffusion coefﬁcient can be also increased. The interplay between these two",1
+
+"J. Wang et al. / Computer Coupling of Phase Diagrams and Thermochemistry 31 (2007) 249–255",1
+
+"255",0
+
+"the Au/Ni diffusion couple with reasonable accuracy can be predicted as well. Acknowledgements This work was ﬁnancially supported by National Science Foundation of China (No. 50371104). One of the authors, H.S. Liu, would like to thank the Programme for New Century Excellent Talents in University, China, for the ﬁnancial support. References",1
+"[1] [2] [3] [4] A.M. Abdul-Lettif, Phys. Status Solidi (a) 201 (2004) 2063. T. Laurila, V. Vuorinen, J.K. Kivilahti, Mater. Sci. Eng. R 49 (2005) 1. G. Ghosh, Acta Mater. 49 (2001) 2609. ¨ J.-O. Andersson, L. H¨ glund, B. J¨ nsson, J. Agren, in: G.R. Prudy (Ed.), o o Fundamentals and Applications of Ternary Diffusion, Pergamon Press, New York, 1990, p. 153. ¨ J.-O. Andersson, J. Agren, J. Appl. Phys. 72 (1992) 1350. ¨ A. Borgenstam, A. Engster¨ m, L. H¨ glund, J. Agren, J. Phase Equilib. 21 o o (2000) 269. J.E. Morral, B.M. Dupen, C.C. Law, Metall. Mater. Trans. A 23A (1992) 2069. ¨ A. Engstr¨ m, L. H¨ glund, J. Agren, Metall. Mater. Trans. A 25A (1994) o o 1127. U.R. Kattner, W.J. Boettinger, S.R. Coriell, Z. Metallkd. 87 (1996) 522. B.-J. Lee, Scripta Mater. 40 (1999) 573. B. Sundman, B. Jansson, J.-O. Andersson, CALPHAD 9 (1985) 153. L. Kaufman, H. Bernstein, Computer Calculation of Phase Diagrams, Academic Press, New York, 1970. B. Okkerse, Phys. Rev. 103 (1956) 1246. S.M. Makin, A.H. Rowe, A.D. Leclaire, Proc. Phys. Soc. Lond. 70B (1957) 545. H.W. Mead, C.E. Brirchenall, Trans. Amer. Inst. Min. (Metall.) Engrs. 209 (1957) 874. D. Duhl, K.-I. Hirano, M. Cohen, Acta Metall. 11 (1963) 1. H.C. Gatos, A.D. Kurtz, Trans. Amer. Inst. Min. (Metall.) Engrs. 200 (1954) 616. A.D. Kurtz, B.L. Averbach, M. Cohen, Acta Metall. 3 (1955) 442. J.E. Reynolds, B.L. Averbach, M. Cohen, Acta Metall. 5 (1957) 29. T. Sugiyama, Y. Yamazaki, Y. Iijima, Solid-Solid Phase Transformations Conference, v1, in: Japan Institute of Metals Proceedings, JIMIC-3, vol. 12, pt.1, 1999, p. 513. F. Sauer, V. Freise, Z. Electrochem. 66 (1962) 353. M.J.H. van Dal, M.C.L.P. Pleumeekers, A.A. Kodentsov, F.J.J. van Loo, J. Alloys Compounds 309 (2000) 132. B. J¨ nsson, Z. Metallkd. 85 (1994) 498. o B. J¨ nsson, Z. Metallkd. 85 (1994) 502. o B. J¨ nsson, Z. Metallkd. 83 (1992) 349. o J.H. Wang, X.-G. Lu, B. Sundman, X.P. Su, CALPHAD 29 (2005) 263. B. J¨ nsson, Scand. J. Metall. 24 (1995) 21. o",1
+
+"Fig. 11. Comparison between calculated concentration proﬁles of the Au–Ni diffusion couple at 1173 K after 50 h with experimental data from [22].",1
+
+"[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]",0
+
+"effects might explain why the minimum of the interdiffusion coefﬁcient does not exactly coincide with the maximum of the miscibility gap. In order to validate this assessment the strictest test is to see if it is possible to predict concentration proﬁles in the Au/Ni diffusion couples from the optimized mobility parameters in the present work and using the DICTRA software [4–6]. Fig. 11 provides conﬁrmation on the validity of the assessment in the present work where the calculated concentration proﬁle in the Au/Ni diffusion couple is compared with the corresponding experimental data measured by van Dal et al. [22] at 1173 K for 50 h. As shown in Fig. 11, the calculated result is generally in accordance with the experimental data within experimental error, although the discrepancy exists in the Ni-rich side. 5. Conclusions Combined the available thermodynamic and diffusion data with the CALPHAD method, the atomic mobility of Au and Ni in face-centred cubic Au–Ni alloys as a function of temperature and composition have been assessed using the DICTRA software. The optimized mobility parameters can be employed to reproduce satisfactorily most of the experimental information on the measured diffusion coefﬁcients in facecentred cubic Au–Ni alloys and the concentration proﬁles for",1
+
+"[21] [22] [23] [24] [25] [26] [27]",0
+

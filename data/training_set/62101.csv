@@ -1,0 +1,133 @@
+"Magnesium Technology 2010 Edited by: Sean R. Agnew, Neale R. Neelameggham, Eric A. Nyberg, and Wim H. Sillekens TMS (The Minerals, Metals & Materials Society), 2010",1
+
+"Microstructure and Mechanical Properties of Magnesium Extrusion Alloys AM30, AZ31 and AZ61",1
+"A.A. Luo1, J.H. Forsmark2, X. Sun3, S.O. Shook4, W.Z. Misiolek5, R.K. Mishra1 1 General Motors Company, Warren, MI 2 Ford Motor Company, Dearborn, MI 3 Chrysler Group LLC, Auburn Hills, MI 4 Timminco Metals, Aurora, CO 5 Lehigh University, Bethlehem, PA Keywords: magnesium, extrusion, mechanical properties, microstructure. Abstract This paper summarizes the “Extrusion and Forming” task progress made by the United States team in the Canada-China-USA “Magnesium Front End Research and Development” (MFERD) project. Mechanical properties in tension and compression were obtained in extrusion, transverse and 45 degree directions. The properties in the extrusion direction were generally better than the properties of the die cast alloys AM60 and AZ91. Significant tension-compression asymmetry (different yield strength in tension and compression) and plastic anisotropy (different plastic behavior in different directions) of these alloys are due to the strong texture developed in the extrusion process. A detailed EBSD analysis of the solid and hollow extrusions of AM30, AZ31 and AZ61 alloys was conducted to characterize the crystallographic texture developed during extrusion to fully understand its effect on the properties obtained. Introduction Solid Sections The Magnesium Front End Research & Development (MFERD) project is an effort jointly sponsored by the United States Department of Energy, the United States Automotive Materials Partnership (USAMP), the Chinese Ministry of Science and Technology (MOST) and Natural Resources Canada (NRCan) to demonstrate the technical and economic feasibility of a magnesium-intensive automotive front end body structure, which offers improved fuel economy and performance benefits in a multi-material automotive structure. The project has the goals of developing key enabling technologies and knowledge base for increased magnesium automotive body applications. The MFERD project began in early 2007 by initiating R&D in the following areas: crashworthiness, NVH (noise, vibration and harshness), fatigue and durability, corrosion and surface finishing, extrusion and forming, sheet and forming, high-integrity body casting, as well as joining and assembly. Additionally, the MFERD project is also linked to the Integrated Computational Materials Engineering (ICME) project that will investigate the processing/structure/properties relations for various magnesium alloys and manufacturing processes utilizing advanced computeraided engineering and modeling tools [1]. Magnesium alloy extrusions offer potentially more mass savings compared to magnesium castings in lightweight vehicle structural applications [2]. The primary reasons that magnesium extrusions are not used in automotive applications are their low extrudability as measured by the extrusion speed, and the lack of understanding of the mechanical properties and microstructure of the extrusion Fig. 1 shows the cross-sectional dimensions of the solid rail section studied in this project, and Table 1 lists the chemical compositions of the alloys. Some of the process conditions for making these samples at Timminco (Denver, CO) are listed as follows: • • • • • • Press: 1800 ton press Billet: 178 mm diameter X 406 mm long Extrusion ratio: ~ 6:1 Extrusion temperature: 360-380°C Extrusion exit speed: 3 m/min for AZ31 & 4.5 m/min AM30 Temper: air-quenched, no straightening. alloys. The objective in the “Extrusion and Forming” task of the MFERD project is to develop/select magnesium extrusion alloys (AM30, AZ31, AZ61, etc.) with high extrusion speeds and improved mechanical properties. The extrusion processes need to be optimized for high speed (low cost) and desirable microstructure. This task also provides extrusion samples to other tasks (such as crashworthiness, fatigue, corrosion, welding & joining in the MFERD project), and supports the ICEM activities on magnesium extrusions. This paper summarizes the “Extrusion and Forming” task progress made by the US team in the project. Solid and hollow extrusions of AM30 AZ31 and AZ61 alloys were fully characterized for grain structure and crystallographic texture. Mechanical properties in tension and compression were tested in extrusion, transverse and 45 degree directions.",1
+
+"Experimental Procedures",1
+
+"Table 1. Chemical compositions (in wt.%) of the magnesium extrusion alloys Alloy AZ31 AM30 AZ61 Al 3.1 3.4 6.2 Mn 0.54 0.33 0.35 Zn 1.05 0.16 0.9 Fe 0.0035 0.0026 0.0032 Ni 0.0007 0.0006 0.0007 Cu 0.0008 0.0008 0.0008",1
+
+"Hollow Sections",-1
+
+"553",0
+
+"Fig. 2 shows the dimensions of hollow extrusion rail designed by the MFERD Crashworthiness team and manufactured by the US extrusion team. The AM30 samples were extruded at a temperature of 427°C and a ram speed of 78 mm/min (extrusion exit speed of 2.8 m/min); while the AZ61 samples were extruded at 316°C and a ram speed of 36 mm/min (extrusion exit speed of 1.2 m/min). Since the AZ61 alloy has a higher strength at the extrusion temperature than the AM30 alloy, the AZ61 samples were extruded at about 45% the extrusion speed of AM30. Additionally, a significantly higher extrusion break-through pressure (6.55 MPa) had to be used for AZ61 compared to 3.45 MPa for AM30, resulting in visibly more die wear in extruding AZ61. The lower extrusion speed and greater die wear leads to a higher production cost of the AZ61 alloy. Round tubes (70 mm in diameter and 4 mm wall thickness) of AM30, AZ31 and AZ61-T5 alloy were provided by Chongqing University in China.",1
+
+"Fig. 1. Magnesium solid rail extrusion.",1
+
+"Fig. 2. Magnesium hollow rail extrusion.",1
+
+"Microstructural Analysis and Mechanical Testing The microstructure of the extrusion specimens was analyzed using optical microscopy, X-ray diffraction (XRD) and electron backscattered diffraction (EBSD) techniques. Specimens for analysis were sectioned from different locations of the extrusions and then polished and etched according to standard metallographic procedures. Optical metallography was conducted with a Nikon Epiphot microscope. The global texture of AM30 and AZ31 solid and tube extrusions was characterized using a D8 Discover Diffractometer. EBSD analysis was performed on the AM30 hollow rail sections using a LEOTM 1450 scanning electron microscope operating at 20 KV fitted with a TSLTM Hikari EBSD camera. Tensile and compressive testing was conducted at room temperature according to ASTM E21-92 procedures at a strain rate range of 0.00075 to 0.001 s-1. For each condition, at least three specimens were tested and the average properties reported.",1
+
+"Results and Discussion Optical Microstructure The microstructure of the AM30 alloy solid rail extrusion section characterized at different locations with optical microscopy is shown in Fig. 3. The following observations were made: • Non-uniform grain structure is evident across the section of the extrusion due to different dynamic recrystallization (DRX) conditions at various locations in the extrusion; Fine grains are generally observed at corners where large-strain deformation is experienced during extrusion, and hence, more DRX grains; and Bi-modal grain structure (coarse original grains and fine DRX grains) in most sections is due to the incomplete DRX during extrusion.",1
+
+"•",0
+
+"•",0
+
+"Fig. 4 shows the cross-section microstructure of an AM30 hollow rail extrusion, with the observations summarized as follows:",1
+
+"554",0
+
+"Fig. 3.",1
+
+"Optical micrographs showing the non-uniform microstructure of an AM30 solid rail extrusion.",1
+
+"Fig. 4.",1
+
+"Optical micrographs showing the non-uniform microstructure of an AM30 hollow rail extrusion [3].",1
+
+"555",0
+
+"•",0
+
+"•",0
+
+"The thin-wall (2.5 mm) sections, curved (B) or flat (C and D) show relatively uniform grain structure, and the surface grain size is generally smaller than that of the interior grains; and Large grains are found in the 5mm-thick flanges and the thick triple junctions.",1
+
+"ultimate tensile strength in the extrusion direction, due to the absence of porosity in the extrusions [4]. A similar level of plastic anisotropy is expected from the round tubes, however, it was not practical to conduct tension or compression tests in the transverse or any angle direction due to its geometry.",1
+
+"The round tubes show more uniform grain microstructure (40-100 µm in grain size), similar to the thin-wall and the straight sections of the hollow rail extrusions.",1
+
+"45 Degree",-1
+"Mechanical Properties Fig. 5 shows the tensile and compressive stress-strain curves of AM30 solid rail extrusion in the extrusion direction (ED) and transverse direction (TD) [4]. Considerable tension-compression yield asymmetry in the yield strength is evident in the extrusion direction. In the transverse direction, the yield asymmetry is reduced, but the hardening behavior and ductility show considerable differences in tension and compression loading conditions. Fig. 5 also shows strong plastic anisotropy, i.e., different strength and ductility in different directions (TD and ED).",1
+"350 AM30, 23\ C, 0.00075/s 300 ) a P M ( s s e r t s g n i r e e n i g n E Tensile/ED 250 Compressive/ED",-1
+
+"Transverse Longitudinal",-1
+
+"Fig. 6. Tensile properties of AM30 hollow rail extrusion in extrusion, transverse and 45° directions.",1
+
+"200",0
+
+"Tensile/TD",-1
+
+"150",0
+
+"100 Compressive/TD 50",-1
+
+"0 0 5 10 15 20 25 Engineering strain (%)",-1
+
+"Fig. 5. Tensile and compressive stress-strain curves of AM30 solid rail extrusion in extrusion direction (ED) and transverse direction (TD) [4]. Table 2. Tensile and compressive properties of magnesium alloy round tubes (70 mm in diameter and 4 mm wall) compared to those of super-vacuum die cast alloys Tensile Yield Strength, MPa 161 163 Ultimate Tensile Strength, MPa 250 251 Tensile Compressive Elongation, Yield Strength, % MPa 19.4 16.6 92.4 82.5 137 N/A N/A",1
+
+"Plastic anisotropy is also observed in the hollow rail extrusion, as shown in Fig. 6. The yield strength in the transverse direction (55.5 MPa) or 45° direction (58.1 MPa) is only about one third of that in the extrusion direction (176 MPa). While the ultimate tensile strength (UTS) and ductility are less dependent on orientation, the transverse direction shows the highest UTS, but the lowest elongation. It is important to take this level of anisotropy into consideration in designing magnesium extrusions for structural applications. The tensile and compressive properties of round tubes in the extrusion direction are listed in Table 2. The AM30-F alloy has the best ductility while the AZ61-T5 tubes show the highest strength (both in tension and compression). Compared to the tensile properties of super-vacuum die cast (SVDC) AM60 and AZ91 alloys [5] also listed in Table 2, the extrusion alloys have a slightly higher yield strength, but significantly higher ductility and",1
+
+"AlloyTemper AM30-F AZ31-F",1
+
+"AZ61-T5 173 306 18.6 AM60 124 227 9.1 (SVDC)* AZ91 159 228 3.6 (SVDC)* *Data for SVDC castings are from Reference [5]",-1
+
+"556",0
+
+"TD ED",-1
+
+"c",0
+
+"ED TD",-1
+
+"c a",-1
+"ED",-1
+
+"Extension Twinning",1
+
+"Tensile axis",-1
+
+"ED",-1
+
+"Tensile axis",-1
+"Fig. 7. Tensile anisotropy in AM30 hollow rail extrusion due to texture.",1
+
+"Texture Characterization The global texture results of AM30 and AZ31 solid rail and round tube extrusions are summarized in Table 3. The main texture in AZ31 and AM30 solid rail sections are (11-24)<22-4-1>; (11-24) direction is parallel to the observed surface (marked in Fig 3 by a red box) and the <22-4-1> direction parallel to the ED. The main texture in AZ31 and AM30 tubes is such that [0001] is perpendicular to ED; i.e., the [0001] of the grains are essentially normal to the surface of the hollow casting. AM30 tubes also exhibit the {11-24}<22-4-1> texture. Overall, the texture intensity in AM30 solid is weaker than AZ31, and the texture in AM30 tubes is more random than AZ31, both indicating more ductility and formability for AM30 as reported earlier [6].",1
+
+"The results highlight the observation that the HCP (hexagonal close-packed) c-axis is largely parallel to the transverse direction of this hollow section.",1
+
+"Plastic Anisotropy and Tension-Compression Asymmetry The results in this paper demonstrate strong plastic anisotropy and tension-compression asymmetry in solid and hollow sections of magnesium extrusions. The extrusion texture is typically such that the c-axis of the HCP magnesium crystals is nearly parallel to the transverse direction in both solid [7] and hollow sections. When the extrusion samples are subjected to tensile loading along the extrusion direction, basal slip and extension twinning are largely suppressed. Pyramidal slip, which requires a relatively high CRSS (critical resolved shear stress) to activate, and contraction/double twins, which have higher threshold stresses (76-153 MPa) [8], are responsible for the high yield strength in the extrusion direction. The {10-12} extension twins require a very low activation stress (2~4 MPa) in compression, which can be produced by compression perpendicular to the c-axis. Thus, the ED compression yield strength is low [8]. Tensile loading along the transverse direction, when the c-axis is parallel to the tensile loading direction, is similar to compressive loading in the extrusion direction, in which extension twinning can be activated with very low yield strength. When compressive loading is applied in the transverse direction, it is comparable to the tensile loading along the extrusion direction – requiring non-basal slip and {10-11} contraction/double twinning. Therefore, higher compressive yield strengths are observed in the TD than in the ED.",1
+
+"Table 3. Texture results of magnesium alloy extrusions Sample AZ31 Solid Rail AM30 Solid Rail AZ31 Round Tube AM30 Round Tube Main Texture (11-24)<22-4-1> (11-24)<22-4-1> ED perpendicular to [0001] ED perpendicular to [0001] (11-24)<22-4-1>",1
+
+"Fig. 7 shows the EBSD results of the AM30 hollow rail extrusion samples in ED vs. TD directions along with their tensile curves.",1
+
+"557",0
+
+"Conclusions 1. Magnesium extrusion alloys AM30, AZ31 and AZ61 have slightly higher yield strength, significantly higher ductility and ultimate tensile strength (UTS) in the extrusion direction compared to super-vacuum die cast (SVDC) or conventional die cast (HPDC) AM60 and AZ91 alloy tubes, due to the absence of porosity in the extrusion alloys. The yield strength of magnesium extrusions in the transverse direction or 45° direction is significantly lower than that in the extrusion direction. While the UTS and ductility are less dependent on orientation, the transverse direction shows the highest UTS, but the lowest elongation. This mechanical anisotropy is because of texture favoring different deformation mechanisms of twinning and slip in different orientations. The plastic anisotropy (i.e., different strength and ductility in different directions) and the tensioncompression asymmetry (i.e., different strength and ductility in tension and compression) need to be considered to accurately model magnesium deformation for automotive design and analysis. References 1. A.A. Luo, E.A. Nyberg, K. Sadayappan and W. Shi, “Magnesium Front End Research and Development: A Canada-China-USA Collaboration”, published in Magnesium Technology 2008, eds. M.O. Pekguleryuz, N.R. Neelameggham, R.S. Beals and E.A. Nyberg, TMS, Warrendale, PA, 2008, 3-10. A.A. Luo, ""Wrought Magnesium Alloys and Manufacturing Processes for Automotive Applications"", SAE Technical Paper 2005-01-0734, Detroit, MI, 2005. B.F. Gerard, A. Niechajowicz, Z. Groinostajski, W.Z. Misiolek, High Strain Rate Tensile Anisotropy in a Mg Alloy AM30 Extrudate, Metallurgical and Materials Transactions (submitted for publication). S.I. Hill, S. Xu, A.A. Luo and D.A. Wagner, “Dynamic Tension and Compression Properties of Extruded AM30 Magnesium Alloy”, published in Proceedings of the Society for Experimental Mechanics (SEM) Annual Conference, SEM, Inc., Bethel, CT, USA. Z. Brown, A.A. Luo, L.J. Ouimet, K. Sadayappan, M. Musser, J. Zindel, R. Beals, “Development of Super-Vacuum Die Casting Process for Magnesium Alloys”, North American Die Casting Association Transactions, T09-043, 2009. A.A. Luo and A.K. Sachdev: “Development of a New Wrought Magnesium-Aluminum-Manganese Alloy AM30”, Metallurgical and Materials Transactions A, 2007, 38A, 1184-1192. S. Xu, W.R. Tyson, R. Bouchard and V.Y. Gertsman, “Effects of Strain Rate and Temperature on Tensile Flow Behaviour and Energy Absorption of Extruded Magnesium AM30 Alloy”, J. of Materials Engineering and Performance, in press. L. Jiang, J.J. Jonas, R.K. Mishra, A.A. Luo, A.K. Sachdev and S. Godet, “Twinning and Texture Development in Two Mg Alloys Subjected to Loading Along Three Different Strain Paths”, Acta Materialia, 55, (11), pp. 3899-3910, 2007.",1
+
+"2.",0
+
+"2.",0
+
+"3.",0
+
+"4.",0
+
+"3.",0
+
+"5.",0
+
+"Acknowledgments The authors would like to acknowledge the USAMP “Magnesium Front End Research and Development” project core team (colleagues from Chrysler, Ford and GM) and the MFERD extrusion teams from Canada (led by Dr. Pierre Martin of CANMET-MTL) and China (led by Profs. Fusheng Pan and Dingfei Zhang of Chongqing University). Profs. Pan and Zhang also provided round tube extrusion samples. Dr. Ning Yang of Bruker AXS Inc. (Madison, WI) performed the pole figure measurements and Dr. Li Jin of Shanghai Jiao Tong University assisted in the pole figure analysis. This research was supported in part, by the United States Department of Energy cooperative agreement No. DE-FC2602OR22910. Such support does not constitute an endorsement by the Department of Energy of the views expressed herein.",1
+
+"6.",0
+
+"7.",0
+
+"8.",0
+
+"558",0
+
