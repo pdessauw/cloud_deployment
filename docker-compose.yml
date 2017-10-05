@@ -7,7 +7,7 @@ services:
       placement:
         constraints:
           - node.labels.type == frt
-    command: ${STACK}_postgres_ocr ocruser ocrpass ${STACK}_redis "http://user:pass@linux-p861381.campus.nist.gov:18099/" document ocr
+    command: ${STACK}_postgres_ocr ocruser ocrpass ${STACK}_redis "http://user:pass@linux-p861381.campus.nist.gov:50101/" document ocr
     volumes:
       - /mnt/data/ocr:/tmp/ocrpipe
       - ocr_static:/srv/ocr-pipeline-master-rest/static
@@ -69,8 +69,8 @@ services:
   wipp:
     image: wipp/wipp
     ports:
-      - 50101:8080  # WIPP
-      - 50102:5005  # Pegasus
+      - 50102:8080  # WIPP
+      - 50103:5005  # Pegasus
     deploy:
       placement:
         constraints:
@@ -113,7 +113,7 @@ services:
         constraints:
           - node.labels.type == frt
     ports:
-      - 80:80
+      - 50101:80
     volumes:
       - mdcs_data:/srv/curator/
       - ocr_static:/srv/ocr-pipeline-master-rest/static
