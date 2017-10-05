@@ -6,4 +6,4 @@ ADMIN_PWD="admin"
 
 echo "Creating admin user..."
 docker cp admin.js $HOST:/
-docker exec -it $HOST mongo admin admin.js
+docker exec $HOST mongo admin admin.js
