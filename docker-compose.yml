@@ -2,7 +2,7 @@ version: "3"
 services:
   # OCR pipeline
   ocr_master:
-    image: nistcurator/ocr_master
+    image: nistcurator/ocr_master:1.0.0-rc7
     deploy:
       placement:
         constraints:
@@ -13,7 +13,7 @@ services:
       - ocr_static:/srv/ocr-pipeline-master-rest/static
       - ocr_socket:/tmp/uwsgi
   ocr_worker:
-    image: nistcurator/ocr_worker
+    image: nistcurator/ocr_worker:1.0.0-rc7
     deploy:
       replicas: 1
       placement:
@@ -37,7 +37,7 @@ services:
       - pg_ocr_data:/var/lib/postgresql/data/
   # MDCS
   mdcs:
-    image: nistcurator/mdcs
+    image: nistcurator/mdcs:2.0.0-alpha3
     deploy:
       placement:
         constraints:
@@ -67,7 +67,7 @@ services:
       - mongo_curator_data:/data/db/
   # WIPP
   wipp:
-    image: wipp/wipp
+    image: wipp/wipp:1.1.0
     ports:
       - 50102:8080  # WIPP
       - 50103:5005  # Pegasus
@@ -88,7 +88,7 @@ services:
           - node.labels.type == mdw
     command: -m
   wipp_executor:
-    image: wipp/wipp_executor
+    image: wipp/wipp_executor:1.1.0
     deploy:
       replicas: 3
       placement:
