@@ -66,45 +66,45 @@ services:
     volumes:
       - mongo_curator_data:/data/db/
   # WIPP
-  wipp:
-    image: wipp/wipp:1.1.0
-    ports:
-      - 50102:8080  # WIPP
-      - 50103:5005  # Pegasus
-    deploy:
-      placement:
-        constraints:
-          - node.labels.type == frt
-    command: ${STACK}_wipp_master ${STACK}_mongo_wipp
-    volumes:
-      - /mnt/data/wipp:/data/WIPP
-      - pegasus_home:/home/wipp/.pegasus
-      - pegasus_workflows:/data/pegasus-workflows
-  wipp_master:
-    image: dscnaf/htcondor-debian:release-0.2.0
-    deploy:
-      placement:
-        constraints:
-          - node.labels.type == mdw
-    command: -m
-  wipp_executor:
-    image: wipp/wipp_executor:1.1.0
-    deploy:
-      replicas: 3
-      placement:
-        constraints:
-          - node.labels.type == wkr
-    command: -e ${STACK}_wipp_master 4G
-    volumes:
-      - /mnt/wippdata:/data/WIPP
-  mongo_wipp:
-    image: mongo:3.4
-    deploy:
-      placement:
-        constraints:
-          - node.labels.type == mdw
-    volumes:
-      - mongo_wipp_data:/data/db/
+  #wipp:
+  #  image: wipp/wipp:1.1.0
+  #  ports:
+  #    - 50102:8080  # WIPP
+  #    - 50103:5005  # Pegasus
+  #  deploy:
+  #    placement:
+  #      constraints:
+  #        - node.labels.type == frt
+  #  command: ${STACK}_wipp_master ${STACK}_mongo_wipp
+  #  volumes:
+  #    - /mnt/data/wipp:/data/WIPP
+  #    - pegasus_home:/home/wipp/.pegasus
+  #    - pegasus_workflows:/data/pegasus-workflows
+  #wipp_master:
+  #  image: dscnaf/htcondor-debian:release-0.2.0
+  #  deploy:
+  #    placement:
+  #      constraints:
+  #        - node.labels.type == mdw
+  #  command: -m
+  #wipp_executor:
+  #  image: wipp/wipp_executor:1.1.0
+  #  deploy:
+  #    replicas: 3
+  #    placement:
+  #      constraints:
+  #        - node.labels.type == wkr
+  #  command: -e ${STACK}_wipp_master 4G
+  #  volumes:
+  #    - /mnt/wippdata:/data/WIPP
+  #mongo_wipp:
+  #  image: mongo:3.4
+  #  deploy:
+  #    placement:
+  #      constraints:
+  #        - node.labels.type == mdw
+  #  volumes:
+  #    - mongo_wipp_data:/data/db/
   # Commons
   nginx:
     image: cloud_nginx
@@ -132,7 +132,7 @@ volumes:
   pg_ocr_data:
   pg_curator_data:
   mongo_curator_data:
-  mongo_wipp_data:
-  pegasus_home:
-  pegasus_workflows:
+  #mongo_wipp_data:
+  #pegasus_home:
+  #pegasus_workflows:
 
