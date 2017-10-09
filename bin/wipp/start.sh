@@ -53,6 +53,6 @@ docker service create --network ${network_name} --name ${wipp_service} \
                       --mount type=volume,source=pegasus_home,destination=/home/wipp/.pegasus \
                       --mount type=volume,source=pegaus_workflows,destination=/data/pegasus-workflows \
                       --constraint "node.labels.type == frt" \
-                      -p 50102:5005 -p 50103:8080 \
+                      -p 50103:5005 -p 50102:8080 \
                       wipp/wipp:1.1.0 ${master_service} ${db_service}
 
